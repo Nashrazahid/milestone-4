@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume bilder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="resume-heading">resume builder by Nashra Zahid</h1>
+    <form id ="resume-form">
+        <fieldset>
+            <legend>personal information</legend>
+            <label for ="name">Name:</label><br>
+            <input type ="text" id="name" name="name" required>
+            <label for ="email">Email:</label><br>  
+            <input type ="email" id="email" name="email" required>
+            <label for ="phone">phone:</label><br>
+            <input type ="tel" id="phone" name="phone" required><br><br>
+            <input class="one" type ="file" name="chose image"required>
+        </fieldset>
+
+       <fieldset>
+        <legend>education</legend>
+         <lebel for ="education">education</lebel><br>
+         <textarea type ="education" id="education" row="1"required></textarea>
+    </fieldset>
+<br>
+    <fieldset>
+        <legend>skills</legend>
+         <lebel for ="skills">skills</lebel><br>
+         <textarea type ="skills" id="skill" row="4"required></textarea>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>work experience</legend>
+         <lebel for ="work experience">experience</lebel><br>
+         <textarea type ="work experience" id="experience" row="4"required></textarea>
+    </fieldset>
+    <br>
+    <input class="one" type ="submit" value ="generate resume below">
+    </form>
+     <div id="resume-output"></div>
+     <button id="edit-button">Edit</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(221, 233, 240);
+}
+h1{
+    text-align: center;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #95afc0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+}
+fieldset{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #c3d0db;
+}
+legend{
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+input,textarea{
+    width:calc(100% - 1px);
+    padding:8px;
+    margin-top: 4px;
+    border:1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type="file"] {
+    padding: 5px;
+    font-size: 14px;
+}
+
+input.one {
+    background-color: #3a8199; /* Slightly brighter button */
+    border: none;
+    color: #f7fbfd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+input.one:hover {
+    background-color: #113b4e;}
+
+input.one:active {
+    background-color: rgb(55, 100, 128);
+}
+
+#resume-output {
+    max-width: 600px;
+    height: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#resume-output h2 {
+    font-size: 28px;
+    color: #141313;
+    margin-bottom: 20px;
+}
+
+#resume-output p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#edit-button{
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgb(128, 241, 241);
+    border-radius: 4px;
+    margin: auto;
+    font-size: large;
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    bottom: -22%; 
+    transform: translateX(-70%);
+}
+#edit-button:hover{
+    background-color: rgb(56, 194, 194);
+}
+#edit-button:active{
+    background-color: rgb(111, 245, 245);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+#resume-output img {
+    width: 120px;
+    height: 100px;
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Provide some space between the image and the text */
+    margin-bottom: 0px; /* Remove extra bottom margin */
+    margin-top: -115px; /* Add a slight margin above the image */
+    border-radius: 8px; /* Optional: Add a border radius to the image */
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
